@@ -85,6 +85,17 @@
         a {
           font-size: 1.5vw;
         }
+        .skills {
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          min-width: 100%;
+        }
+        .skill {
+          flex: 1;
+          display: flex;
+          justify-content: center;      
+        }
       </style>
     </head>
     <body>
@@ -121,12 +132,8 @@
           <h3>Maze Solving Algorithm - June 2023</h3>
           <pre>
             •	Developed an AI agent that can find the exit to given mazes.
+            •	Uses Bayes Filter and Value Iteration to find where it is and which path to take.
             •	<a href="https://drive.google.com/file/d/1N-mSSzjaG9cMqACMIwYtLCvYKy_9Jmo-/view?usp=sharing">Click Here to See a Video of it</a>
-          </pre>
-          <h3>Maze Solving Algorithm - June 2023</h3>
-          <pre>
-            •	Developed an AI agent that can find the exit to given mazes.
-            •	<a href="https://startup.dakotastevens.net">Click Here to See a Video of it</a>
           </pre>
           <hr />
         </div>
@@ -142,15 +149,22 @@
           <pre>
             •	GPA - 3.8/4.0
           </pre>
+          <hr />
         </div>
         <div>
           <h2>Skills</h2>
-          <ul>
-            <li>C++</li>
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>HTML</li>
-          </ul>
+          <div class="skills">
+            <p class="skill">•	C++</p>
+            <p class="skill">•	Java</p>
+            <p class="skill">•	Python</p>
+            <p class="skill">•	Javascript</p>
+          </div>
+          <div class="skills">
+            <p class="skill">•	C, C++</p>
+            <p class="skill">•	SQL</p>
+            <p class="skill">•	TypeScript</p>
+            <p class="skill">•	HTML</p>
+          </div>
         </div>
       </main>
       <footer>
